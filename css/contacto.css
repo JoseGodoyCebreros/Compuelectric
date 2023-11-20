@@ -1,0 +1,116 @@
+@import url('fuentes.css');
+@import url('variable.css');
+
+#contacto-titulo{
+    font-weight: bold;
+    color: #0b257b;
+    font-size: 4rem;
+    line-height: 1cm;
+}
+
+.informacion-contacto{
+    font-family: 'Chivo', sans-serif;
+    font-size: 3.3rem;
+}
+
+.informacion{
+    color: black;
+    display: flex;
+    gap: 2rem;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 10px;
+    width: 50rem;
+}
+
+.info:hover{
+    transition: 2s;
+    color: rgb(39, 0, 77);
+    background-color: var(--celeste);
+}
+
+
+.info-contacto{
+    font-family: 'Chivo', sans-serif;
+    font-size: 3rem;
+}
+
+.info-contacto ul{
+    list-style: none;
+    padding: 0;
+}
+
+#NumeroTelefono, #Correo{
+    font-weight: bold;
+}
+
+#tituloHorario{
+    font-weight: bold;
+    font-size: 4rem;
+}
+
+#direccion{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 3rem;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#iconoTelefono,
+#iconoCorreo{
+    width: 30px;
+}
+
+/* Mapa */
+
+#container-map{
+    user-select: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#container-map a{
+    width: 50rem;
+    height: 50rem;
+}
+
+#mapa{
+    width: 50rem;
+    height: 50rem;
+}
+
+#mapa:hover{
+    border: solid 3px #00938e;
+}
+
+#tienda{
+    width: 50rem;
+}
+
+@media screen and (max-width: 1200px) {
+    #container-map{
+        flex-direction: column;
+    }
+
+    #container-map a{
+        flex-direction: column;
+        margin-bottom: 10rem;
+    }
+}
+
+@media screen and (max-width: 400px) {
+
+    #mapa{
+        width: 90%;
+    }
+
+    #tienda{
+        width: 40rem;
+    }
+}

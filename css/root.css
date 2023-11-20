@@ -1,0 +1,73 @@
+@import url('imagen.css');
+@import url('imagenes.css');
+@import url('contacto.css');
+@import url('menu.css');
+@import url('porteros.css');
+@import url('bootstrap.min.css');
+
+:root{
+    font-size: 10px
+}
+
+* {
+    margin: 0px 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+/* MEDIA QUERY DEL ROOT */
+@media screen and (max-width: 600px) {
+    :root{
+        font-size: 7px
+    }
+}
+/* MEDIA QUERY DEL ROOT */
+
+@media screen and (min-width: 361px) and (max-width: 600px) {
+
+    .menu-opcion{
+        font-size: 3rem;
+    }
+
+}
+
+@media screen and (max-width: 360px) {
+
+    .menu-opcion{
+        font-size: 2rem;
+    }
+
+    .info-2{
+        height: 25rem;
+    }
+}
+
+/* Pagina PORTEROS E INTERCOMUNICADORES */
+
+@media screen and (max-width: 600px) {
+
+    #TituloIntercomunicadores{
+        font-size: 3.7rem;
+    }
+}
+
+@media screen and (max-width: 830px) {
+    #div-botones{
+        width: 100%;
+        flex-direction: column;
+        height: 30rem;
+    }
+}
+
+@media screen and (min-width: 481px ) and (max-width: 960px){
+    #whatsapp, #instagram, #facebook, #tiktok  {
+        font-size: 2.5rem;
+    }
+}
+
+@media screen and (max-width: 480px){
+    #whatsapp, #instagram, #facebook, #tiktok  {
+        font-size: 1.9rem;
+    }
+}

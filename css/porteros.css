@@ -1,0 +1,41 @@
+@import url('variable.css');
+
+
+#div-botones{
+    width: 100%;
+    height: 5rem;
+    font-size: 2rem;
+    align-items: center;
+    justify-content: space-around;
+    float: left;
+    display: flex;
+}
+
+.boton{
+    display: flex;
+    border: solid 1px black;
+    height: 3.2rem;
+    cursor: pointer;
+    font-family: 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+    background: rgb(2, 10, 113);
+    border-radius: 3px;
+}
+
+.boton:hover{
+    transition: 1s;
+    background: rgb(55, 65, 198);
+}
+
+
+.a-botones-accesorios{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    padding: 10px;
+    height: 100%;
+    border-radius: 3px;
+    color: white;
+}
+
+

@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Lexend:wght@300&display=swap');
+
+.contenedor-modal{
+    user-select: none;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.contenedor-modal.mostrar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation-name: degradado;
+    animation-duration: 0.5s;
+    z-index: 20;
+}
+
+.modal--header{
+    background-color:var(--header);
+    color: white;
+    width: 100%;
+    height: min-content;
+}
+
+.modal-principal{
+    position: relative;
+    animation-name: modalSlide;
+    animation-duration: 0.5s;
+    background-color: var(--primariofondo);
+    color: black;
+    /* background-color: rgb(51, 51, 51); */
+    display: flex;
+    gap: 1.5rem;
+    flex-direction: column;
+    justify-content: space-between;
+    height: min-content;
+    width: 80%;
+    border-radius: 10px;
+    overflow: hidden;
+    box-sizing: border-box;
+    z-index: 200;
+}
+
+@keyframes modalSlide {
+    from {
+      transform: translateY(-100%);
+      opacity: 0;
+    }
+  
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+
+@keyframes degradado{
+    from {
+      opacity: 0;
+    }
+  
+    to {
+      opacity: 1;
+    }
+  }
+
+.modal--header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;
+    width: 100%;
+    height: 100%;
+}
+
+.modal-title{
+    height: min-content;
+    width: 80%;
+    font-size: 3rem;
+    line-height: 120%;
+    text-transform: uppercase;
+}
+
+.botonModal-cerrar{
+    width: 4rem;
+    height: 4rem;
+    font-size: 3rem;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid;
+    border-radius: 10px;
+    padding: 0;
+}
+
+.botonModal-cerrar:hover{
+    background-color: black;
+    color: white;
+}
+
+.botonModal-cerrar:active{
+    background-color: rgb(145, 141, 141);
+    color: black;
+}
+
+
+.botonModal-cerrar span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+.div-modal{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    gap: 10px;
+    padding: 0 10px;
+    flex-direction: column;
+}
+
+.imagen-modal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+/* MOBILE FIRST */
+.imagen-modal img{
+    border-radius: 10px;
+    background-color: white;
+    width: 22rem;
+    height: 22rem;
+}
+
+/*  */
+
+.modal-texto{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.modal-texto p{
+    user-select: text;
+    width: 90%;
+    height: min-content;
+    font-size: 2.2rem;
+    text-align: start;
+}
+
+.modal-footer{
+    height: min-content;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 1rem;
+    padding-right: 1rem;
+}
+
+.precio{
+    font-size: 3rem;
+    padding-left: 2rem;
+}
+
+.modal-footer a{
+    position: relative;
+    font-size: 2.2rem;
+}
+
+/* RESPONSIVE MOBILE FIRST */
+
+@media screen and (min-width: 1000px){
+    .modal-principal{
+        width: 80rem;
+    }
+
+}
+
+@media screen and (min-width: 1px) and (max-width: 350px){
+    .modal-title{
+        font-size: 2.3rem;
+    }
+}
+
+@media screen and (min-width: 380px) {
+    .modal-footer{
+        padding-bottom: 1.5rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    .precio{
+        font-size: 4rem;
+        padding-left: 2rem;
+    }
+}
+
+@media screen and (min-width: 460px){
+    /* .modal-principal{
+        height: 48rem;
+    } */
+    
+    .div-modal{
+        flex-direction: row;
+    }
+
+    .imagen-modal{
+        width: 50%;
+    }
+    
+    .modal-texto{
+        width: 50%;
+    }
+
+}
+
+@media screen and (min-width: 460px) and (max-width: 700px){
+    .modal-texto p{
+        font-size: 1.8rem;
+    }
+    
+    .imagen-modal img {
+        width: 23rem;
+        height: 23rem;
+    }
+}
+
+@media screen and (min-width: 700px) and (max-width: 879px){
+    .imagen-modal img{
+        width: 25rem;
+        height: 25rem;
+    }
+}
+
+
+@media screen and (min-width: 880px){
+    .imagen-modal img{
+        width: 30rem;
+        height: 30rem;
+    }
+}

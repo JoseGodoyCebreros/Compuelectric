@@ -1,0 +1,49 @@
+#sectionImagenes{
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  display: flex;
+  justify-content: center;
+  animation-name: appear;
+  animation-duration: 1s;
+}
+
+#sectionImagenes div{
+  display: flex;
+  width: 90%;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.imagenMuestra {
+  animation-name: appear;
+  animation-duration: 2s;
+  width: 50rem;
+  border-radius: 10px;
+}
+
+.imagen.texto{
+  font-size: 3rem;
+}
+
+#sectionInstalacion p{
+  font-family: 'Kanit', sans-serif;
+  font-size: 4rem;
+  font-weight: 900;
+}
+
+#divInstalacion{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: space-around;
+  margin: 30px;
+}
+
+.instalacion{
+  animation-name: app
+  ear;
+  animation-duration: 2s;
+  border: 3px solid black;
+  border-radius: 15% 0% 15% 0%;
+  width: 30rem;
+}

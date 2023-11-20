@@ -1,0 +1,23 @@
+.robotica{
+    width: 23rem;
+}
+
+.nombreRobotica{
+    font-size: 2rem;
+}
+
+.img-robotica{
+    background-color: white;
+}
+
+@media screen and (min-width: 401px) {
+    #TituloRobotica{
+    font-size: 5rem;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    #TituloRobotica{
+    font-size: 4rem;
+    }
+}
