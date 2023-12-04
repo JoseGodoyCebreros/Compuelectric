@@ -23,6 +23,11 @@
     $resultado_vportero->execute();
     $vportero = $resultado_vportero->fetchAll(PDO::FETCH_ASSOC);
 
+    $consulta_camaras = "SELECT * FROM camaras";
+    $resultado_camaras = $conexion->prepare($consulta_camaras);
+    $resultado_camaras->execute();
+    $camaras = $resultado_camaras->fetchAll(PDO::FETCH_ASSOC);
+
     $consulta_robotica = "SELECT * FROM robotica";
     $resultado_robotica = $conexion->prepare($consulta_robotica);
     $resultado_robotica->execute();
