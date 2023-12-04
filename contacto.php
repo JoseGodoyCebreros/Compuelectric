@@ -43,8 +43,8 @@
         
         <br>
         <div class="info-contacto">
-            <p><span id="NumeroTelefono">Numero de telefono:</span> +51 977 679 527 <img id="iconoTelefono" src="img/pagina/llamada-telefonica.png" alt=""> </p>
-            <p> <span id="Correo">Correo:</span> compuelectric.777@gmail.com <img id="iconoCorreo" src="img/pagina/sobre.png" alt=""> </p>
+            <p><span id="NumeroTelefono">Numero de telefono:</span> +51 977 679 527 <img id="iconoTelefono" src="img/icons/llamada-telefonica.png" alt=""> </p>
+            <p> <span id="Correo">Correo:</span> compuelectric.777@gmail.com <img id="iconoCorreo" src="img/icons/sobre.png" alt=""> </p>
             <br>
             <ul>
                 <li id="tituloHorario">HORARIO DE ATENCION</li>

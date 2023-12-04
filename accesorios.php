@@ -31,6 +31,10 @@
                 <a class="a-botones-accesorios" href="#sectionVideoPorteros"> Videoporteros</a>
             </div>
 
+            <div class="boton" id="boton-Camaras">
+                <a class="a-botones-accesorios" href="#sectionCamaras"> Camaras de vigilancia</a>
+            </div>
+
             <div class="boton" id="boton-Videoporteros">
                 <a class="a-botones-accesorios" href="#sectionRobotica"> Robotica</a>
             </div>
@@ -53,6 +57,10 @@
         <br>
 
         <?php require 'layouts/videoporteros.php' ?>
+
+        <br>
+
+        <?php require 'layouts/camaras.php' ?>
 
         <br>
 

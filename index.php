@@ -20,7 +20,7 @@
             <?php require 'layouts/encabezado.php' ?>
             <div class="header-container">
                 <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-                    <div class="carousel-inner">
+                    <div class="banner carousel-inner">
                         <div class="header carrusel carousel-item active">
                         <img class="carruselBannerimg d-block w-100" src="img/pagina/BannerCompuelectric2.png"  alt="First slide">
                         </div>
@@ -36,13 +36,13 @@
             
             <section class="services-container">
                 <div id="subtitulo">
-                    <p>Venta e instalacion de camaras de vigilancia, intercomunicadores, robotica.</p>
+                    <p>Venta e instalacion de camaras de vigilancia, intercomunicadores y videoporteros</p>
                 </div>
             
                 <div class="services-lista box">
                     <p>Accesorios en venta </p>
                     <ul id="accesorios">
-                    </li>LAPTOP´S-ROBOTICA-LAPTOP´S-TECLADOS-MOUSES-KIT´S-PARLANTES-ADAPTADORES-PORTEROS-INTERCOMUNICADORES</li>
+                    </li>LAPTOP´S - ACCESORIOS DE ROBOTICA-LAPTOP´S - TECLADOS -MOUSES - KIT´S - PARLANTES - ADAPTADORES - PORTEROS - INTERCOMUNICADORES</li>
                     </ul>
                 </div>
 
@@ -50,6 +50,10 @@
                     <div>
                         <img class="imagenMuestra 1" src="img/pagina/paginaVideoPort.jpg" alt="">
                         <p class="imagen texto">Realizamos instalaciones de videoporteros para que mantengas vigilada tu casa</p>
+                    </div>
+                    <div>
+                        <p class="imagen texto">Vendemos e Instalamos Intercomunicadores para facilitar la comunicacion en tu casa/empresa</p>
+                        <img class="imagenMuestra 2" src="img/pagina/paginaIntercom.jpg" alt="">
                     </div>
                     
                 </section>
