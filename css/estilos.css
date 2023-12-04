@@ -147,6 +147,15 @@ footer{
     font-size: 3.5rem;
 }
 
+.redes a{
+    display: flex;
+    align-items: center;
+}
+
+.redes a:hover{
+    border-radius: 20px;
+}
+
 #whatsapp a{
     color: rgb(0, 205, 0);
     padding: 2px;
@@ -155,7 +164,6 @@ footer{
 #whatsapp a:hover{
     color: white;
     background-color: rgb(0, 205, 0);
-    border-radius: 2px;
 }
 
 #instagram a{
@@ -166,7 +174,6 @@ footer{
 #instagram a:hover{
     color: white;
     background-color: rgb(235, 22, 43);
-    border-radius: 2px;
 }
 
 #facebook a{
@@ -177,18 +184,16 @@ footer{
 #facebook a:hover{
     color: white;
     background-color: rgb(31, 105, 214);
-    border-radius: 2px;
 }
 
 #tiktok a{
-    color: rgb(30, 25, 173);
+    color: rgb(88, 87, 97);
     padding: 2px;
 }
 
 #tiktok a:hover{
     color: white;
-    background-color: rgb(30, 25, 173);
-    border-radius: 2px;
+    background-color: rgb(88, 87, 97);
 }
 
 
@@ -202,4 +207,20 @@ footer{
 
 .carousel-control-prev-icon{
     filter: hue-rotate(120deg)
+}
+
+@media screen and (max-width: 750px) {
+    .link-redes img{
+        width: 30px;
+    } 
+}
+
+@media screen and (max-width: 270px) {
+    .link-redes img{
+        width: 20px;
+    } 
+
+    .link-redes {
+        font-size: 10px;
+    }
 }

@@ -29,21 +29,24 @@
 #TituloPorteros,
 #TituloVideoPorteros,
 #TituloIntercomunicadores,
-#TituloPlacas{
+#TituloPlacas,
+#TituloCamaras{
     font-size: 6rem;
 }
 
 .nombreVideoPortero,
 .nombrePortero,
 .nombreIntercom,
-.nombrePlaca{
+.nombrePlaca,
+.nombreCamara{
     font-size: 2rem;
 }
 
 .porteroIMG,
 .intercomIMG,
 .placaIMG,
-.roboticaIMG{
+.roboticaIMG,
+.camaraIMG{
     width: 23rem;
 }
 

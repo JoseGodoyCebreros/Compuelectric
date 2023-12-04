@@ -4,6 +4,8 @@
 }
 
 .titulo-catalogos{
+    animation-name: appear;
+    animation-duration: 2s;
     padding-top: 2rem;
     padding-bottom: 2rem;
     font-size: 4rem;

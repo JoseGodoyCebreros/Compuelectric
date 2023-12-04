@@ -6,11 +6,15 @@
     color: #0b257b;
     font-size: 4rem;
     line-height: 1cm;
+    animation-name: appear;
+    animation-duration: 1s;
 }
 
 .informacion-contacto{
     font-family: 'Chivo', sans-serif;
     font-size: 3.3rem;
+    animation-name: appear;
+    animation-duration: 1s;
 }
 
 .informacion{
@@ -25,6 +29,8 @@
     justify-content: center;
     border-radius: 10px;
     width: 50rem;
+    animation-name: appear;
+    animation-duration: 2s;
 }
 
 .info:hover{

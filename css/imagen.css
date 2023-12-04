@@ -1,8 +1,16 @@
+.header-container{
+  animation-name: appear;
+  animation-duration: 2s;
+}
+
 #sectionImagenes{
   margin-top: 5rem;
   margin-bottom: 5rem;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 4rem;
+  align-items: center;
   animation-name: appear;
   animation-duration: 1s;
 }
@@ -46,4 +54,26 @@
   border: 3px solid black;
   border-radius: 15% 0% 15% 0%;
   width: 30rem;
+}
+
+@media screen and (max-width:800px){
+  #sectionImagenes div{
+    width: 90%;
+  }
+  
+  .imagenMuestra {
+    width: 30rem;
+  }
+  
+  .imagen.texto{
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 360px){
+  
+  .imagen.texto{
+    font-size: 1.3rem;
+    font-weight: 200;
+  }
 }

@@ -28,10 +28,13 @@
 
 .carousel-inner{
     background-color: white;
+    box-shadow: 0px 0px 20px 4px rgba(0, 0, 0, 0.8);
+    border-radius: 20px;
 }
 
-.carousel-inner.banner{
-    background-color: rgb(0, 0, 0);
+.banner.carousel-inner{
+    box-shadow: none;
+    border-radius: 0%;
 }
 
 .carrusel.carousel-item{

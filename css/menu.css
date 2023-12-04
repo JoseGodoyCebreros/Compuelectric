@@ -28,6 +28,7 @@
 .header-titulo {
     margin: 0;
     width: 40%;
+    padding-left: 10px;
     height: 100%;
     display: flex;
     flex-direction: row;
@@ -133,6 +134,7 @@
     /* display: none; */
     position: absolute;
     width: 100%;
+    top: -200%;
     padding: 0;
     list-style: none;
     z-index: -1;
@@ -146,7 +148,7 @@
 
 @keyframes subanimation {
     0%{
-        top: 0;
+        top: -150%;
     }
 
     100%{
@@ -238,6 +240,11 @@
 
 /* MENU TAMAÑO */
 @media only screen and (max-width: 440px) {
+
+
+    .header-titulo {
+        padding-left: 5px;
+    }
 
     .icono-menu {
         width: 20%;

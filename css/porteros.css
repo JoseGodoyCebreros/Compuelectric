@@ -20,6 +20,8 @@
     font-weight: bold;
     background: rgb(2, 10, 113);
     border-radius: 3px;
+    animation-name: appear;
+    animation-duration: 2s;
 }
 
 .boton:hover{
