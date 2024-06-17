@@ -1,2 +1,0 @@
-# Compuelectric
-pagina compuelectric
